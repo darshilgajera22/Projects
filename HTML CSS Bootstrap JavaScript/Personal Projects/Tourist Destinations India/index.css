@@ -1,0 +1,107 @@
+/*
+    Darshil Gajera
+    000867069
+
+    css file for all 4 html pages
+*/
+
+/* Header Logo */
+.logo{
+    animation-name: img-logo;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+/*
+h3{
+    color:darksalmon;
+    background-color: aliceblue;
+    padding: 10px;
+}*/
+/* Page Heading */
+.page_title{
+    color:sandybrown;
+    animation-name: title-anim;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+/* Author Name*/
+.author{
+    text-align: right !important;
+    color:sandybrown;
+}
+/*Navigation*/
+nav{
+    background-color: rgb(126, 186, 236);
+}
+nav a{
+    color: white !important;
+    font-weight: bolder !important;
+    font-size: large;
+    border-radius: 20px;
+    padding: 10 20px !important;
+    background-color: rgb(240, 130, 130);
+}
+/* Navigation link css*/
+.nav-link:focus{
+    background-color: chartreuse;
+}
+.nav-link:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+    /*Source: w3school*/
+}
+
+/* Animation for title*/
+@keyframes title-anim{
+    0%{
+        top: 0px;
+        color: antiquewhite;
+        transform: translate(80px, 80px); 
+        background-color: darksalmon;
+        padding: 5px;
+    }
+    25%{
+        top: 20px;
+        color: aquamarine;
+        transform: rotate(20deg);
+        background-color: tan;
+        padding: 5px;
+    }
+    50%{
+        top: 40px;
+        color: darkkhaki;
+        transform: rotate(-20deg);
+        background-color: darkseagreen;
+        padding: 5px;
+    }
+    100%{
+        top: 60px;
+        color: bisque;
+        background-color: lavenderblush;
+        padding: 5px;
+    }
+}
+
+/*Animation for logo image*/
+@keyframes img-logo{
+    0%{
+        transform: translate(320px, 10px);
+    }
+}
+
+/* carousel Images */
+.carousel-image{
+    width: 100%;
+}
+/*Gallery text*/
+p{
+    text-justify: auto !important;
+    text-align: center;
+}
+/* Gallery Images*/
+.gallery-img{
+    padding: 10px;
+}

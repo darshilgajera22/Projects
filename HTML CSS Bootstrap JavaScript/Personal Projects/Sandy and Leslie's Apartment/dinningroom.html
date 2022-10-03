@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Author: Darshil Gajera, 000867069 -->
+        <meta charset="UTF-8">
+        <title>Dinningroom Details</title>
+        <link rel="stylesheet" type="text/css" href="apartment_layout.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+        <style>
+            .dinningroom-details{
+                text-align: center;
+            }
+            img{
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Sandy and Leslie's Apartment</h1>
+        </header>
+
+        <main>
+            <div class="apartment-floor-plan">
+                <Figure class="floor-plan-figure">
+                    <figcaption>Click a room for a detailed view.</figcaption>
+                    <img src="images/apartmentfloorplan.jpg" alt="Apartment Floor Plan">
+                </Figure>
+
+                <nav>
+                    <ul class="nav-items">
+                        <li><a href="apartment.html">Apartment</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="bedroom.html">Bedroom 1</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="bedroom.html">Bedroom 2</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="#">Dining Room</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="kitchen.html">Kitchen</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="livingroom.html">Living Room</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="dinningroom-details">
+                <h3>Dinning Room Details</h3>
+                <img src="images/diningroom_lg.jpg" alt="Dinningroom Details">
+            </div>
+            <div class="apartment-services">
+                <h3>Apartment Services:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Services</th>
+                            <th>Day/Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gym</td>
+                            <td rowspan="2">
+                                <p>Monday-Friday 6am - 10pm</p> 
+                                <p>Saturday 8am - 8pm</p>
+                                <p>Sunday 8am - 5pm</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pool</td>
+                        </tr>
+                        <tr>
+                            <td>Laundry</td>
+                            <td>24/7</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <p>For more information contact: 
+                <a href="mailto:SandyAndLeslie@example.com">SandyAndLeslie@example.com</a>
+                or
+                <a href="tel:+19055551234">(905) 555-1234</a>  
+            </p>
+            <p>&copy; Sandy and Leslie 2020</p>
+        </footer>
+    </body>
+</html>

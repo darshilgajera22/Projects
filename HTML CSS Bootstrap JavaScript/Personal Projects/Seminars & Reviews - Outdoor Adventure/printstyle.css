@@ -1,0 +1,22 @@
+/* Author: Darshil Gajera, 000867069 */
+
+* {
+	font-size: 12pt;
+	color: black;
+	background-color: white;
+	background-image: none;
+	font-family: "Times New Roman", Times, serif;
+}
+.navigation-menu a{
+	border: none;
+	color: black;
+}
+table, td, th {
+	border: none !important;
+}
+img {
+	display: none;
+}
+textarea{
+	width: 70%;
+}

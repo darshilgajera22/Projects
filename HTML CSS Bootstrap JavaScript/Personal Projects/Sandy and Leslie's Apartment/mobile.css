@@ -1,0 +1,41 @@
+/* Author: Darshil Gajera, 000867069 */
+
+@media only screen and (max-width: 600px) {
+    h1{
+        width: 100%;
+    }
+    .floor-plan-figure{
+        display: none;
+    }
+    .nav-items li{
+        display: block !important;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .pi{
+        display: none;
+    }    
+    .apartment-information{
+        display: grid !important;
+        grid-template-columns: 3fr !important;    
+    }
+    .survey{
+        grid-row: 1 !important;
+        grid-column: 1/span 2 !important;
+    }
+    .welcome-msg{
+        grid-row: 2 !important;
+        grid-column: 1/span 2 !important;
+    }
+    .apartment-services{
+        grid-row: 3 !important;
+        grid-column: 1/span 2 !important;
+    }
+    .location{
+        grid-row: 4 !important;
+        grid-column: 1 !important;
+    }
+    .location img{
+        max-width: 70% !important;
+    }
+}

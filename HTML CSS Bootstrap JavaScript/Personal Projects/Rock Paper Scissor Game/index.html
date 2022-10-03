@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Author: Darshil Gajera, 000867069 -->
+    <!-- Created On: June 29, 2022 -->
+    <!-- Assignment 4 -->
+    <!-- Webpage for Rock Paper Scissor Game -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Webpage Title -->
+    <title>Rock Paper Scissor</title>
+
+    <!-- External CSS Link filename: index.css -->
+    <link type="text/css" rel="stylesheet" href="index.css">
+
+    <!--External JavaScript Link filename: index.js -->
+    <script src="index.js"></script>
+
+
+    <!-- Bootstrap CDN **copy "https://getbootstrap.com/docs/5.0/getting-started/download/" -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN **copy "https://www.w3schools.com/bootstrap5/bootstrap_collapse.php"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="text-center">
+        <!-- Title Of Game -->
+        <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <main>
+
+        <!-- For User -->
+        <div class="container user-info">
+            <!-- For User input -->
+            <div class="col-sm-6">
+                <div class="row">
+                    <!-- Label for username text -->
+                    <label for="username">User Name: </label>
+                    <!-- Input to get username -->
+                    <input type="text" name="username" id="username" value="" placeholder="Enter your Username..."
+                        required>
+                    <!-- To show input validation message -->
+                    <span id="errormsg"> </span>
+                </div>
+                <div class="row mt-1">
+                    <!-- Label for Game Round text -->
+                    <label for="gameRound">Enter Game Round: </label>
+                    <!-- Input to get Game Rounds Number -->
+                    <input type="number" name="gameRound" id="gameRound" value=""
+                        placeholder="Enter number of game round..." required>
+                    <!-- To show input validation message -->
+                    <span id="errormsg2"> </span>
+                </div>
+                <div class="row mt-4">
+                    <!-- Submit Button -->
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- For Game -->
+        <div id="game" class="container">
+
+            <!-- For Game win counting result -->
+            <div class="result row mt-3">
+                <div class="col-sm-4 text-center">
+                    <!-- Player text -->
+                    <h4>Player</h4>
+                    <!-- Player total result -->
+                    <p id="playerResult">0</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <!-- Computer text -->
+                    <h4>Computer</h4>
+                    <!-- Computer total result -->
+                    <p id="computerResult">0</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <!-- Tie text -->
+                    <h4>Tie</h4>
+                    <!-- Tie total result-->
+                    <p id="tieResult">0</p>
+                </div>
+            </div>
+
+
+            <!-- Round wise option choosen text  and result -->
+            <div class="mt-5">
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <!-- For player option -->
+                        <h3 class="gametext" id="playertext">Player: </h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- For computer option -->
+                        <h3 class="gametext" id="computertext">Computer: </h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- For Round wise result -->
+                        <h3 class="gametext" id="resulttext">Result: </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buttons for selecting option -->
+            <div class="optionmenu text-center mt-5">
+                <!-- Rock Paper Scissor Buttons to choose players option -->
+                <button class="choicebtn" id="rock" disabled>ROCK</button>
+                <button class="choicebtn" id="paper" disabled>PAPER</button>
+                <button class="choicebtn" id="scissor" disabled>SCISSOR</button>
+            </div>
+
+            <!-- Final results after all rounds -->
+            <div class="finalResult text-center mt-5">
+                <!-- Displayes Final Result after all Rounds -->
+                <h3 id="finalresult">Final Result</h3>
+            </div>
+
+            <!-- Game Help -->
+            <!-- **Reference "https://www.w3schools.com/bootstrap5/bootstrap_collapse.php" -->
+            <div class="col-sm-3 position-absolute">
+                <!-- Help Button -->
+                <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#helpinfo">Help</button>
+                <!-- Help text -->
+                <div id="helpinfo" class="collapse text-start mt-2">
+                    <p>1. Default game round is 5.</p>
+                    <p>2. Choose your move through click on Rock,Paper,Scissor.</p>
+                    <p>3. Final result will appears after completing all rounds.</p>
+                </div>
+            </div>
+
+            <!-- Game Restart-->
+            <div class="restart text-center mt-5">
+                <!-- Button to restart game -->
+                <button id="reStart" disabled>Restart</button>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

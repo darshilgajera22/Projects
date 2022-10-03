@@ -1,0 +1,412 @@
+
+.main-div{
+    width: 100%;
+  
+}
+
+/*Header*/
+.main-header{
+    width: 100%;
+    
+}
+
+/*1st header*/
+.top-header{
+    width: 100%;
+    
+    height: 20px;
+    background-color: lightgrey;
+
+}
+.support-mail{
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-top: -15px;
+    color: rgb(97, 92, 92);
+}
+.support-mail p:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.delivery-text{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: -15px;
+    margin-right: px;
+    color: rgb(97, 92, 92);
+}
+.social-icons{    
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin-top: 2px;
+}
+.top-header .fa{
+    padding-left: 20px;
+}
+#fbheader:hover{
+    color: orangered;
+}
+#instaheader:hover{
+    color: orangered;
+}
+#twitterheader:hover{
+    color: orangered;
+}
+#pininterestheader:hover{
+    color: orangered;
+}
+#googleheader:hover{
+    color: orangered;
+}
+
+
+/*2nd header*/
+
+.mid-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.logo-header{
+    width: 20%;
+}
+.menu-header{
+    width: 40%;
+    float: left;    
+    text-align: right;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+.menu-header a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu-header a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+#collection{
+    border: none;
+}
+.login-header{
+    width: 30%;
+    text-align: right;
+    float: right;
+    padding-top: 15px;
+}
+#lgn:hover{
+   color: orangered;
+}
+#register{
+    margin-left: -10px;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+#register:hover{
+    color: orangered;
+}
+.shopping-icon-header{
+    width: 10%;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.shopping-icon-header .fa:hover{
+    color: orangered;
+}
+.mid-header .fa{
+    padding-right: 10px;
+}
+
+
+/*Body*/
+
+.main-body{
+    width: 100%;
+}
+    /*Image body*/
+
+.belts-body{
+    width: 100%;
+}
+#belts{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/*Categories Gallery*/
+
+
+.gallery-body{
+    width: 100%;
+}
+.gallery-body h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: -20px;    
+}
+.gallery-body h4{
+    text-align: center;
+    color: rgb(97, 92, 92);
+    margin-bottom: -50px;
+}
+.gallery-photo{
+    margin: 15px;
+    float: left;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    margin-left: 40px;
+}
+
+
+    /*New Arrivals Gallery*/
+
+.new-arrivals{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-left: 110px;
+    display: inline-block;
+}
+.new-arrivals h1{
+    position:fixed;
+    position:inherit;
+    padding-top: 10%;
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 230px;
+}
+.gallery-new-arrivals{
+    margin-top: -20px;
+    float: left;
+    padding: 20px;
+    height: 200px;
+    width: 280px;
+}
+.new-name-price{
+    position: absolute;
+    text-align: left;
+    padding-left: 30px;
+}
+.new-name-price h3:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+    /*Trending Products Gallery*/
+
+
+.trending-products{
+    width: 100%;
+    margin-top: 10%;
+    display: inline-block;
+    margin-left: 110px;   
+}
+#trendingpro{
+    text-align: center;
+    margin-right: 200px;
+}
+#trendingtxt{
+    text-align: center;
+    margin-right: 200px;
+}
+.gallery-tranding-products{
+    float: left;
+    height: 250px;
+    width: 280px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.trending-price{
+    position: absolute;
+    margin-top: -30px;
+}
+.trending-price h3:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+/*Footer*/
+
+.main-footer{
+    width: 100%;
+    display: block;
+}
+
+
+    /* Top Footer*/
+
+.top-footer{
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    margin-top: 5%;
+    text-align: center;
+    background-color: lightgray;
+}
+.shipping{
+    width: 33.33%;
+    float: left;
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    border-right: 1px solid rgb(177, 174, 174);
+}
+.payment{
+    width: 33.33%;
+    float: left;
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    border-right: 1px solid rgb(177, 174, 174);
+}
+.return{
+    width: 33%;
+    float: right;
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+    /*Middle Footer*/
+
+.mid-footer{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding-bottom: 50px;
+    position: absolute;
+    text-align: left;
+    background-color: #0F204D;
+}
+.logo-footer{
+    display: block;
+    width: 30%;
+    margin-top: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 3%;
+    color: white;
+}
+#orangelogo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: 5%;
+}
+.icons-footer{
+    margin-left: 40px;
+}
+.icons-footer .fa{
+    margin-top: 20px;
+    padding-right: 25px;
+}
+#fbfooter:hover{
+    color: orangered;
+}
+#instafooter:hover{
+    color: orangered;
+}
+#twitterfooter:hover{
+    color: orangered;
+}
+#pininterestfooter:hover{
+    color: orangered;
+}
+#googlefooter:hover{
+    color: orangered;
+}
+.about-footer{
+    width: 30%;
+    float: left;
+    color: white;
+    margin-top: 3%;
+    display: block;
+}
+.customer-service{
+    float: left;
+}
+.cslable{
+    color: rgb(228, 227, 227, 0.5);    
+    line-height: 2;
+}
+.cslable:hover{
+    text-decoration: underline;
+}
+.info-company{
+    float: left;
+    margin-left: 50px;
+}
+.subscribe-footer{
+    width: 30.33%;
+    float: right;
+    margin-top: 3%;
+    color: white;
+    display: block;
+    line-height: 2;
+}
+#subemail{
+    width: 40%;
+    padding: 10px;
+    padding-left: 30px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+}
+#subscribe{
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #0F204D;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#emailsubscribe{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+
+
+    /*Bottom Footer*/
+
+.bottom-footer{
+    position: absolute;
+    display :block;
+    /*background-color: #0F204D;*/
+    width: 100%;
+    height: 10%;    
+    /*margin-top: 22%;*/
+}
+.copyright{
+    position: absolute;
+    /*color: rgb(228, 227, 227, 0.5);*/
+    display: block;
+    /*margin-left: 20%;*/
+}
+
+#ulname{
+    font-weight: bolder;
+    color:orangered;
+}

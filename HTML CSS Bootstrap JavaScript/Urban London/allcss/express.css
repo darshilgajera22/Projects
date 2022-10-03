@@ -1,0 +1,204 @@
+
+
+input :checked{
+    color: blue;
+}
+input[type=number]{
+    width: 30%;
+}
+.fa:hover{
+    color: orangered;
+}
+
+.saex{
+    border-bottom: 5px solid orangered;
+    padding-bottom: 4px;
+}
+.saex::after{
+    /*width: 10px;*/
+}
+
+    /* Header Top*/
+
+.header1{
+    background-color: #d4d1d1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.delivery-txt{
+    text-align: center;
+}
+
+.social-icon{
+    text-align: right;
+}
+.social-icon .fa{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Header Second*/
+
+#nav-menu{
+    border-bottom: 1px solid rgb(211, 208, 208);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+.nav-menu a{
+    color: black;
+}
+.nav-menu a:hover{
+    color: orangered;
+}
+
+.logo-img{
+    max-width: 100%;
+}
+
+.menu-header li{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.profile-header .fa{
+    padding-left: 20px;
+}
+.logintxt{
+    padding-right: 10px;
+}
+.logintxt:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.regi{
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+.regi:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+/* Sign in text*/ 
+.signin{
+    color: orangered;
+    text-align: right;
+}
+.signin:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+
+/* shipping address  */
+
+.shipaddtxt{
+    border-bottom: 1px solid orangered;
+    border-bottom-width: 3px; 
+}
+
+
+
+/*  Payment Method  */
+
+#creditpay-text{
+    color: blue;
+}
+#applepay-text{
+    color: blue;
+}
+.paypaltxt{
+    font-size: 10px;
+}
+.paypal-img{
+    max-width: 20%;
+}
+
+
+
+
+/*  Order Summary */
+
+
+.cart-item-img{
+    width: 100%;
+}
+.summary-cart{
+    background-color: #f5f5f5;
+}
+
+.discbtn{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #0f204d;
+}
+.placeorderbtn{
+    color: white !important;
+    background-color: #0f204d !important;
+}
+
+
+
+
+/* footer  */
+
+.footer{
+    background-color:#0f204d;
+    color: white;
+}
+
+
+.logo-icon-footer{
+    margin-top: 10px;
+}
+.orengelogo-footer{
+    max-width: 100%;
+    
+}
+.social-icon-footer{
+    color: white;
+}
+.social-icon-footer .fa{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-ul{
+    list-style-type: none;
+    float: left;
+    padding-left: 0 !important;
+    color: #d4d1d1;
+    margin-top: 20px !important;
+}
+#faemail{
+    position: absolute;
+    color: #d4d1d1;
+    top: 10px;
+    left: 10px;
+}
+.subscribe-footer form{
+    position: relative;
+    margin-top: 20px;
+}
+.e-input{
+    padding-left: 30px !important;
+}
+.subscribebtn{
+    font-weight: bold !important;
+    color: #0f204d !important;
+}
+.subscribe-footer p{
+    font-size: 13px;
+}
+
+
+.bottom-footer p{
+    color:#d4d1d1;
+}

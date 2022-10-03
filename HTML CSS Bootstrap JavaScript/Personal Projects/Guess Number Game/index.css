@@ -1,0 +1,188 @@
+/*  Author: Darshil Gajera, 000867069
+    Created On: July 21, 2022
+    Assignment 5
+    CSS for Guess Number Game
+*/
+
+/* for header */
+header {
+    padding: 10px;
+    /* setting padding */
+}
+
+/* for page */
+body {
+    background-color: peachpuff !important;
+    /* Setting background color */
+    color: white !important;
+    /* setting font color */
+}
+
+/* for Gamename SVG ID */
+#game_name {
+    width: 500px;
+    /* setting width */
+    height: 120px;
+    /* setting height */
+    animation-name: g;
+    /* setting animation */
+    animation-duration: 5s;
+    /* animation duration */
+    animation-iteration-count: infinite;
+    /* animation count */
+    animation-timing-function: ease-in-out;
+    /* animation timing */
+}
+
+/* for Textpath ID */
+#gamenametext {
+    font-family: serif;
+    /* setting font style */
+    width: 100x;
+    /* setting width */
+    font-size: xx-large;
+    /* setting font size */
+    fill: coral;
+    /* setting font color */
+    font-weight: bold;
+    /*setting font weight */
+
+}
+
+/* CSS Animation for Game name */
+
+@keyframes g {
+    0% {
+        transform: skewX(10deg);
+        /* skew 10 deg */
+    }
+
+    25% {
+        transform: skewY(10deg);
+        /* skew 10 deg */
+    }
+
+    50% {
+        transform: skewX(10deg);
+        /* skew 10 deg */
+    }
+
+    100% {
+        transform: skewY(10deg);
+        /* skew 10 deg */
+    }
+}
+
+
+/* for user input */
+#usernumber {
+    width: 300px;
+    /* setting width */
+    padding: 20px;
+    /* setting padding */
+    border-radius: 30px;
+    /* setting border radius */
+    border: none;
+    /* setting border none */
+
+}
+
+/* for totaltries */
+#totaltries {
+    width: 180px;
+    /* setting width */
+    height: 45px;
+    /* setting height */
+    position: relative;
+    /* setting position result */
+
+}
+
+/* for polygon */
+polygon {
+    fill: red;
+    /* setting color */
+    stroke: red;
+    /* setting border */
+    stroke-width: 1;
+    /* setting border width */
+}
+
+/* for check number button */
+#checknum {
+    margin-top: 20px;
+    /* setting margin top */
+}
+
+/* for checknum and restart button */
+#checknum,
+#restart {
+    text-decoration: none;
+    /* setting text decoration none */
+    border: none;
+    /* setting border none */
+    background-color: lightcoral;
+    /* setting background color */
+    padding: 10px 20px;
+    /* setting padding */
+    border-radius: 20px;
+    /* setting border radius */
+    color: white;
+    /* setting font color */
+    font-weight: bold;
+    /* setting font weight */
+}
+
+/* for restart buttton */
+#restart:hover {
+    transform: scale(1.2);
+    /* animation on mouse hover */
+}
+
+/* for check number button */
+#checknum:hover {
+    transform: scale(1.2);
+    /* animation on mouse hover */
+}
+
+/* for errormsg */
+#errormsg {
+    height: 20px;
+    /* setting height */
+    color: red;
+    /* setting color */
+}
+
+/* for result */
+.result {
+    height: 120px;
+    /* setting height */
+    font-weight: bold;
+    /* setting font weight */
+}
+
+/* for result in svg */
+#svgresult {
+    width: 500px;
+    /* setting width */
+    height: 100px;
+    /* setting height */
+}
+
+/* setting color of h4 */
+.game h4 {
+    color: salmon !important;
+}
+
+/* setting font size of result*/
+#output {
+    font-size: large;
+}
+
+/* for footer */
+footer {
+    background-color: salmon;
+    /* setting background color */
+    padding: 10px;
+    /* setting padding */
+}

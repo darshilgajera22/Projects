@@ -1,0 +1,486 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+  overflow-x: auto;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* HEADER  */
+.main-header{
+    width: 100%;
+}
+.header-menu{
+    width: 100%;
+}
+.navbar-brand img{
+    padding-right: 20px;
+}
+.menu-header{
+    padding-left: 20px;
+}
+.menu-header a{
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu-header a:hover{
+    color: orangered;
+}
+.dropdown-toggle::after{
+    color: orangered;
+}
+.menu-icon{
+    margin-right: 20px;
+}
+.menu-icon a{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-icon a:hover{
+    color: orangered;
+}
+.quality-brand-text{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.navbar-footer{
+    margin-left: 20px;
+}
+.navbar-toggler button{
+    color: orangered;
+}
+
+
+/* banner 1 body*/
+
+.bodybanner1{
+    background-image: url("/IMAGES/categories/sean-oulashin-KMn4VEeEPR8-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner1{
+    width: 100%;
+    height: auto;
+    
+}
+.banner1-1{
+    width: 100%;
+    position: relative;
+}
+.slider{
+    width: 70%;    
+    display: inline-block;
+    background-color: rgba(210, 105, 30, 0.5);
+    margin-left: -250px;
+    transform: skewX(-40deg);
+    
+}
+.box{
+    width: 100%;
+    height: 100%;
+    transform: skewX(40deg);
+    margin-left: 400px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.brand-img{
+    max-width: 100%;
+    height: 80%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.brand-banner-text{
+    font-family: fantasy;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.banner-bottom-text{
+    width: 50%;
+    color: white;
+}
+.banner-bottom-text p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.down-arrow{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+}
+.center-img{
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+
+
+/* banner 2  .........*/
+
+.banner2{
+    width: 100%;
+    height: auto;
+}   
+.banner2-img1{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 45px;
+    z-index: 1;
+}
+.banner2-right{
+    width: 45%;
+    background-color: rgb(46, 139, 87);
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+.center-img-logo{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 200px;
+    margin-left: 287px; 
+}
+.bg-img{
+    width: 55%;
+    background-image: url("/IMAGES/Hoddie-BG\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner2-left-text{
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    padding: 30px;
+    line-height: 8;
+    
+}
+.banner2-left-text h3{
+    font-size: 40px;
+}
+.banner2-left-text h6{
+    font-family: revert;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.btn_seeallproducts{
+    border: 1px solid black;
+    background-color: orangered !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+.btn_seeallproducts:hover{
+    color: orangered !important;
+    background-color: white !important;
+}
+
+
+
+/*
+---------------------------------------
+            Gallery
+--------------------------------------
+*/
+
+.gallery1{
+    background-color: rgb(214, 210, 210);
+    padding: 20px;
+}
+.img-div1{
+    position: relative;
+}
+.img-div1:hover .inner-text{
+    opacity: 1;
+}
+.frame319{
+    max-width: 100%;
+    position: absolute;
+    margin: 20px;
+}
+.cartbtn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-left: 5px solid white;
+}
+.cartbtn:hover{
+    background-color:white;
+    color: orangered;
+    border-left: 5px solid orangered;
+}
+#gcartbtn:hover{
+    color: orangered !important;
+    background-color: white !important;
+}
+.inner-text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: bolder;
+    opacity: 0;
+
+}
+.inner-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.inner-details h5{
+    color: orangered;
+    margin-top: 20px;
+}
+.inner-details p{
+    margin-top: 10px;
+}
+.inner-details h3{
+    font-size: 40px;
+}
+.inner-details .fa{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.inner-details .fa:hover{
+    background-color: white;
+    color: gray;
+}
+.img1{
+    max-width: 100%;
+}
+
+.img-div2{
+    position: relative;
+}
+.img-div2:hover .inner-text{
+    opacity: 1;
+}
+.img-div3{
+    position: relative;
+}
+.img-div3:hover .inner-text{
+    opacity: 1;
+}
+
+
+
+/*
+--------------
+Banner 3
+--------------
+*/
+
+.banner3{
+    position: relative;
+    background-image: url("/IMAGES/categories/872236-art-artwork-photoshop-manipulation-fantasy-photo-artistic-fishing-fish-lake-1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner3-left{
+    background-color:rgba(82, 119, 231, 0.6);
+}
+.b3-details{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.b3-details img, h2, button{
+    margin: 20px;
+    padding: 20px;
+}
+.b3-details h2{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.b3-details h3{
+    font-weight:normal;
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+.b3-center-logo{
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.b3-btn-allpro{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+
+/*
+------------
+Product Description
+------------
+*/
+
+
+.logo-round{
+    max-width: 40%;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid orangered;
+    border-left: 1px solid orangered;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+.logo-div{
+    padding: 20px;
+}
+.txt-div{
+    padding: 20px;
+    
+}
+.txt-div span{
+    color: blue;
+}
+.icon-div{
+    padding: 20px;
+    color: orangered;
+}
+
+
+
+.left-img img{
+    max-width: 100%;
+}
+.left-img1{
+    border: 1px solid orangered;
+}
+.right-img img{
+    max-width: 100%;
+}
+.right-img1{
+    margin-right: 10px;    
+    border: 1px solid orangered;
+}
+.right-img2{
+    margin-left: 10px;
+    border: 1px solid orangered;
+}
+.right-img3{
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 1px solid orangered;
+}
+.right-img4{
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid orangered;
+}
+
+
+
+
+/* Footer */
+
+.main-footer{
+    width: 100%;
+    height: auto;
+    background-image: url("/IMAGES/categories/872236-art-artwork-photoshop-manipulation-fantasy-photo-artistic-fishing-fish-lake-1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.f-brand1 img{
+    max-width: 70%;
+}
+.f-brand2 img{
+    max-width: 70%;
+}
+.logo-footer{
+    width: 50%;
+}
+.logo-icon-footer{
+    padding-top: 50px;
+}
+.icon-footer-label{
+    margin-top: 40px;
+}
+.icon-footer{
+    margin-left: 40px;
+}
+.icon-footer .fa{
+    margin-left: 10px;
+}
+.icon-footer .fa:hover{
+    color: orangered;
+}
+
+.footer-head{
+    color: orangered;
+    font-weight: bold;
+}
+.about-company-footer{
+    padding-top: 50px;
+}
+.company-detail{
+    padding-top: 20px;   
+}
+.company-detail h6:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.our-products-footer{
+    padding-top: 50px;
+}
+.products-detail{
+    padding-top: 20px;
+}
+.products-detail h6:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.our-brands-footer{
+    padding-top: 50px;
+}
+.our-brands-detail{
+    padding-top: 50px;
+}
+
+
+
+.footer-bottom{
+    background-color: rgb(250, 77, 15);
+}
+.footer-bottom p{
+    color: white;
+    
+}
+

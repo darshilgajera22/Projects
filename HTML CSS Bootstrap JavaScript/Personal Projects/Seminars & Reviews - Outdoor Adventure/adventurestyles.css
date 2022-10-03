@@ -1,0 +1,17 @@
+/* Author: Darshil Gajera, 000867069 */
+
+
+header{
+    text-align: center;
+    display: block;
+    margin-top: 0px !important;
+}
+header h1{
+    background-color: #E9EFFF;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 20px;
+}

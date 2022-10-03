@@ -1,0 +1,654 @@
+@media only screen and (max-width: 500px){
+    /*Gallery 
+    --------------*/
+    #topgallery{
+        display: block !important;
+        
+    }
+    #top-img1{
+        max-width: 100% !important;
+        margin: 5px !important;
+    }
+    #top-img2{
+        max-width: 100% !important;
+        margin: 5px !important;
+    }
+    #top-img3{
+        max-width: 100% !important;
+        margin: 5px !important;
+    }
+    .frame319{
+        max-width: 20% !important;
+    }
+
+    
+    /* Banner 2 
+    --------------*/
+    .b2-logo-center{
+        position: absolute;
+        max-width: 10%;
+        top: 30% !important;
+    }
+    .b2-right-logo{
+        max-width: 20% !important;
+       
+    }
+    .b2-right-text h3{
+        font-size: 20px !important;
+        margin-top: 5px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+    .b2-right-text h6{
+        font-size: 10px !important;
+        margin: 0 !important;
+    }
+    .b2-right-text .btn_seeallproducts{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 10px !important;
+        padding: 5px !important;
+        margin-top: 5px !important;
+    }
+
+
+    /* Banner 3
+    ---------------*/
+
+    .b3-left img{
+        max-width: 20% !important;
+    }
+    .b3-left h3{
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+    .b3-left h6{
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+    .b3-left .btn_seeallproducts{
+        font-size: 10px !important;
+        padding: 5px !important;
+        margin-top: 10px !important;
+    }
+    
+    .b3-center-img{
+        max-width: 50% !important;
+    }
+    .b3-logo-center{
+        top: 35% !important;
+        left: 50% !important;
+        max-width: 20% !important;
+        margin-left: 7px !important;
+    }
+    .b3-img1{
+        max-width: 100%;
+        left: 60%;
+        top: 20%;
+    }
+
+
+
+
+    /* Banner 4 
+    -------------*/
+
+    .b4-img-left img{
+        max-width: 100% !important;
+    }
+    .b4-logo-center img{
+        max-width: 20%;
+    } 
+    .b4-text-right img{
+        max-width: 20% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+    .b4-text-right h3{
+        font-size: 15px !important;
+        padding: 0px !important;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .b4-text-right h5{
+        font-size: 10px !important;
+    }
+    .b4-text-right .btn_seeallproducts{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 5px !important;
+        padding: 5px !important;
+        margin-top: 1px !important;
+    }
+
+
+
+    /* Banner 5 */
+    .banner5{
+        width: 100%;
+    }
+    .banner3-img1{
+        top: 20% !important;
+        left: 20% !important;
+    }
+    .b3-details{
+        padding-right: 10px !important;
+    }
+    .b3-details img{
+        max-width: 20%;
+    }
+    .b3-details h2{
+        font-size: 15px !important;
+    }
+    .b3-details h3{
+        font-size: 10px !important;
+    }
+    .b3-details .b3-btn-allpro{
+        font-size: 5px !important;
+        padding: 5px !important;
+    }
+    .b5-logo-center img{
+        max-width: 20% !important;
+        top: 15% !important;
+    }
+
+
+}
+
+
+
+
+/* HEADER  MENU */
+/* Header  */
+
+
+#nav-menu img{
+    max-width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.menu-header li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu-header a{
+    color: black;
+    font-weight: bold;
+}
+.menu-header a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.icon-header .fa{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icon-header .fa:hover{
+    color: orangered;
+}
+.navbar-text h6{
+    font-size: 10px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Banner 2*/
+
+.b2-main{
+    position: relative;
+}
+.b2-main img{
+    max-width: 100%;
+}
+.b2-left-img{
+    background-color:lemonchiffon;
+}
+.b2-right-text{
+    background-image: url("/IMAGES/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+}
+.b2-right-logo{
+    max-width: 20% !important;
+}
+.b2-right-text h3{
+    font-family: fantasy;
+    font-size: 40px;
+    margin: 20px;
+}
+.b2-right-text h6{
+     font-weight:normal;
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+    text-justify: auto;
+    margin: 20px;
+    
+}
+.b2-logo-center{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Gallery 1  */
+
+.gallery1{
+    background-color: rgb(241, 237, 237);
+    padding: 20px;
+}
+.img-div1{
+    position: relative;
+}
+.img-div1:hover .inner-text{
+    opacity: 1;
+}
+.frame319{
+    max-width: 100%;
+    position: absolute;
+    margin: 20px;
+}
+.cartbtn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-left: 5px solid white;
+}
+.cartbtn:hover{
+    background-color:white;
+    color: orangered;
+    border-left: 5px solid orangered;
+}
+#gcartbtn:hover{
+    color: orangered !important;
+    background-color: white !important;
+}
+.inner-text{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: bolder;
+    opacity: 0;
+    background-color: rgba(10, 10, 10, 0.5);
+    
+}
+.inner-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+.inner-details h5{
+    color: orangered;
+    margin-top: 20px;
+}
+.inner-details p{
+    margin-top: 10px;
+}
+.inner-details h3{
+    font-size: 40px;
+}
+.inner-details .fa{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.inner-details .fa:hover{
+    background-color: white;
+    color: gray;
+}
+.img1{
+    width: 100%;
+}
+
+.img-div2{
+    position: relative;
+}
+.img-div2:hover .inner-text{
+    opacity: 1;
+}
+.img-div3{
+    position: relative;
+}
+.img-div3:hover .inner-text{
+    opacity: 1;
+}
+
+
+
+
+/* banner 3  .........*/
+
+
+.banner3{
+    width: 100%;
+    height: auto;
+}
+.banner3{
+    position: relative;
+    background-image: url("/IMAGES/categories/872236-art-artwork-photoshop-manipulation-fantasy-photo-artistic-fishing-fish-lake-1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner3-left{
+    background-color:rgba(82, 119, 231, 0.6);
+}
+.banner3 .row{
+    width: 100%;
+}
+.b3-left{
+    position: relative;   
+}
+.b3-right{
+    position: relative;
+    background-color: rgb(46, 139, 87);
+}
+
+.b3-right img{
+    max-width: 100%;
+}
+.b3-left img{
+    max-width: 100%;
+}
+.b3-left h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.b3-left h6{
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: monospace;
+}
+.b3-left .btn_seeallproducts{
+    margin-top: 20px;
+}
+.b3-img1{
+    position: absolute;
+    margin-left: 30px;
+    bottom: 0;   
+    z-index: 1;
+}
+.b3-logo-center{
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    margin-left: 1px;
+}
+
+
+
+/* Banner 4*/
+
+.main-b4{
+    position: relative;
+}
+.b4-img-left img{
+    max-width: 100%;
+
+}
+.b4-text-right{
+    background-image: url("/IMAGES/Hoddie-BG\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.b4-text-right h3{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.b4-text-right h5{
+    font-family: monospace;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.btn_seeallproducts{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: orangered !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+.btn_seeallproducts:hover{
+    color: orangered !important;
+    background-color: white !important;
+}
+
+.b4-logo-center{
+    position: absolute;
+    left: 29%;
+    top: 30%;
+    margin-left: 5px;
+}
+
+
+/*
+--------------
+Banner 5
+--------------
+*/
+
+.banner5{
+    width: 100%;
+    position: relative;
+    background-image: url("/IMAGES/categories/872236-art-artwork-photoshop-manipulation-fantasy-photo-artistic-fishing-fish-lake-1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b5{
+    width: 100%;
+}
+
+.b5-left{
+    position: relative;
+    background-color:rgb(70, 140, 197);
+}
+.b5-left img{
+    width: 100%;
+    position: absolute;
+    left: 30%;
+}
+
+.b3-details{
+    padding: 40px;    
+}
+
+.b3-details h2{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.b3-details h3{
+    font-weight:normal;
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+
+.b3-btn-allpro{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.b3-btn-allpro:hover{
+    background-color: white;
+    color: orangered;
+}
+.b5-logo-center{
+    position: absolute;
+    left: 28%;
+    top: 30%;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+/*
+------------
+Product Description
+------------
+*/
+
+
+.logo-round{
+    max-width: 40%;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid orangered;
+    border-left: 1px solid orangered;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+.logo-div{
+    padding: 20px;
+}
+.txt-div{
+    padding: 20px;
+    
+}
+.txt-div span{
+    color: blue;
+}
+.icon-div{
+    padding: 20px;
+    color: orangered;
+}
+
+
+
+
+
+
+
+/*        Footer             */
+
+
+.f-brand1 img{
+    max-width: 70%;
+}
+.f-brand2 img{
+    max-width: 70%;
+}
+.logo-footer{
+    width: 50%;
+}
+.logo-icon-footer{
+    padding-top: 50px;
+}
+.icon-footer-label{
+    margin-top: 40px;
+}
+.icon-footer{
+    margin-left: 40px;
+}
+.icon-footer .fa{
+    margin-left: 10px;
+}
+.icon-footer .fa:hover{
+    color: orangered;
+}
+
+.footer-head{
+    color: orangered;
+    font-weight: bold;
+}
+.about-company-footer{
+    padding-top: 50px;
+}
+.company-detail{
+    padding-top: 20px;   
+}
+.company-detail h6:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.our-products-footer{
+    padding-top: 50px;
+}
+.products-detail{
+    padding-top: 20px;
+}
+.products-detail h6:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.our-brands-footer{
+    padding-top: 50px;
+}
+.our-brands-detail{
+    padding-top: 50px;
+}
+
+
+
+
+
+.prodetail img{
+    max-width: 100%;
+}
+
+.bottom-footer{
+    background-color: #f36821;
+    color: white;
+    font-weight: bold;
+}
+

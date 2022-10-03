@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Author: Darshil Gajera, 000867069 -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+        <link rel="stylesheet" type="text/css" href="apartment_layout.css">
+        <title>Sandy and Leslie's Apartment</title>
+        <style>
+            .apartment-information{ 
+                display: grid;
+                grid-template-columns: 1fr 1fr 2fr;
+                grid-gap: 20px;    
+            }
+            .location{
+                grid-row: 1/span 2;
+                grid-column: 1;
+            }
+            .location img{
+                width: 100%;
+            }
+            .apartment-services{
+                grid-row: 1/span 2;
+                grid-column: 2;
+            }
+            table{
+                width: 100% !important;
+            }
+            .welcome-msg{
+                grid-row: 1;
+                grid-column: 3;
+            }
+            .survey{
+                grid-row: 2;
+                grid-column: 3;
+            }
+            .submit-response{
+                margin-top: 10px;
+            }
+            .gallery-content{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+            .gallery-content div{
+                margin: 20px;
+            }
+            .gallery-content h4{
+                background-color: orangered;
+                padding: 10px;
+                color: white;
+                font-weight: bolder;
+            }
+            footer{
+                margin-top: 50px;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" media="print" href="print.css">
+    </head>
+    <body>
+        <header>
+            <h1>Sandy and Leslie's Apartment</h1>
+        </header>
+
+        <main>
+            <div class="apartment-floor-plan">
+                <Figure class="floor-plan-figure">
+                    <figcaption>Click a room for a detailed view.</figcaption>
+                    <img src="images/apartmentfloorplan.jpg" alt="Apartment Floor Plan" usemap="#floor-plan">
+                    <map name="floor-plan">
+                        <area shape="rect" coords="57,12,191,161" href="/bedroom.html" alt="Bedroom" title="Bedroom">
+                        <area shape="rect" coords="412,273,590,460" href="/bedroom.html" alt="Bedroom" title="Bedroom">
+                        <area shape="rect" coords="230,242,410,300" href="/kitchen.html" alt="Kitchen" title="Kitchen">
+                        <area shape="circle" coords="473,220,50" href="/dinningroom.html" alt="Dinningroom" title="Dinningroom">
+                        <area shape="poly" coords="213,16,226,160,354,159,397,127,402,11" href="/livingroom.html" alt="Livingroom" title="Livingroom">
+                    </map>
+                </Figure>
+                <nav>
+                    <ul class="nav-items">
+                        <li><a href="#">Apartment</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="bedroom.html">Bedroom 1</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="bedroom.html">Bedroom 2</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="dinningroom.html">Dining Room</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="kitchen.html">Kitchen</a><span class="pi">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                        <li><a href="livingroom.html">Living Room</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="apartment-information">
+
+                <div class="location">
+                    <h3>Location</h3>
+                    <img src="images/location.png" alt="Apartment Location">
+                </div>
+                <div class="apartment-services">
+                    <h3>Apartment Services:</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Services</th>
+                                <th>Day/Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gym</td>
+                                <td rowspan="2">
+                                    <p>Monday-Friday 6am - 10pm</p> 
+                                    <p>Saturday 8am - 8pm</p>
+                                    <p>Sunday 8am - 5pm</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pool</td>
+                            </tr>
+                            <tr>
+                                <td>Laundry</td>
+                                <td>24/7</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="welcome-msg">
+                    <h3>Welcome Message</h3>
+                    <audio controls>
+                        <source src="audio/apartment.mp3" type="audio/mpeg">    
+                    </audio>
+                    <p>
+                        Transcript: Hello, Welcome to our apartment. You'll really enjoy living here. 
+                        The rooms are spacious and the apartment building amenities are fantastic. 
+                        We look forward to hearing from you!
+                    </p>
+                </div>
+                <div class="survey">
+                    <h3>Survey</h3>
+                    <p>How did you find out about this apartment? Check any that apply:</p>
+                    <form method="post">
+                        <input type="checkbox" id="web-search" value="Web Search" name="web search">
+                        <label for="web-search">Web Search</label>
+                        <input type="checkbox" id="friend" value="Friend" name="friend">
+                        <label for="friend">Friend</label>
+                        <input type="checkbox" id="news-paper" value="Newspaper" name="newspaper">
+                        <label for="news-paper">Newspaper</label>
+
+                        <div class="submit-response">
+                            <input type="submit">
+                            <input type="reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <h3>Gallery</h3>
+                <div class="gallery-content">
+                    <div class="balcony">
+                        <h4>Balcony</h4>
+                        <img src="images/thumbnails/balcony_sm.jpg" alt="Balcony">
+                    </div>
+                    <div class="bathroom">
+                        <h4>Bathroom</h4>
+                        <img src="images/thumbnails/bathroom_sm.jpg" alt="Bathroom">
+                    </div>
+                    <div class="bedroom">
+                        <h4>Bedroom</h4>
+                        <img src="images/thumbnails/bedroom_sm.jpg" alt="Bedroom">
+                    </div>
+                    <div class="dinning-room">
+                        <h4>Dinning Room</h4>
+                        <img src="images/thumbnails/diningroom_sm.jpg" alt="Dinning Room">
+                    </div>
+                    <div class="Kitchen">
+                        <h4>Kitchen</h4>
+                        <img src="images/thumbnails/kitchen_sm.jpg" alt="Kitchen">
+                    </div>
+                    <div class="living-room">
+                        <h4>Living Room</h4>
+                        <img src="images/thumbnails/livingroom_sm.jpg" alt="Living Room">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>For more information contact: 
+                <a href="mailto:SandyAndLeslie@example.com">SandyAndLeslie@example.com</a>
+                or
+                <a href="tel:+19055551234">(905) 555-1234</a>  
+            </p>
+            <p>&copy; Sandy and Leslie 2020</p>
+        </footer>
+        <a href="../index.html">Back to Index</a>
+    </body>
+</html>

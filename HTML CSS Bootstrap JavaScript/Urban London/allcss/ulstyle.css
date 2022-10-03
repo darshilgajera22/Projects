@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+.col-1{width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.main-header{
+    width:100%;
+}
+.top-header{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+}
+.support-mail{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.support-mail a{
+    text-decoration: none;
+    color: rgb(97, 92, 92);
+    padding-left: 10px;
+}
+.support-mail a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.support-mail .fa{
+    color: rgb(97, 92, 92);
+}
+.delivery-text{
+    width: 40%;
+    height: auto;
+    float: left;
+    text-align: center;
+    color: rgb(97, 92, 92);
+}
+.social-icons{    
+    width: 30%;
+    height: auto;
+    float: left;
+    text-align: right;
+    color: rgb(97, 92, 92);
+}
+.top-header .fa{
+    padding-left: 15px;
+}
+#fbheader:hover{
+    color: orangered;
+}
+#instaheader:hover{
+    color: orangered;
+}
+#twitterheader:hover{
+    color: orangered;
+}
+#pininterestheader:hover{
+    color: orangered;
+}
+#googleheader:hover{
+    color: orangered;
+}
+
+
+
+.mid-header{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo-header{
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+.menu-header{
+    width: 40%;
+    float: left;    
+    text-align: right;
+    margin-left: 100px;
+    padding-top: 15px;
+    color: rgb(97, 92, 92);
+}
+.menu-header a{
+    text-decoration: none;
+    color: rgb(97, 92, 92);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu-header a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+#collection{
+    border: none;
+    color: rgb(97, 92, 92);
+}
+.login-header{
+    width: 30%;
+    text-align: right;
+    float: right;
+    padding-top: 15px;
+    color: rgb(97, 92, 92);
+}
+#lgn:hover{
+   color: orangered;
+}
+#register{   
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+#register:hover{
+    color: orangered;
+}
+.shopping-icon-header{
+    width: 10%;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    color: rgb(97, 92, 92);
+}
+.shopping-icon-header .fa:hover{
+    color: orangered;
+}
+.mid-header .fa{
+    padding-right: 10px;
+}
+
+
+.main-body{
+    width: 100%;
+}
+    /*Image body*/
+
+.belts-body{
+    width: 100%;
+}
+#belts{
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery-body{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#categorylabel #subcategorylabel{
+    text-align: center;
+    font-weight: bolder;  
+}
+#subcategorylabel{
+    color: rgb(97, 92, 92);
+}
+.gallery1{
+    width: 100%;
+    text-align: center;
+}
+.gallery-photo{ 
+    height: auto;
+}
+.gallery-photo img{
+    padding: 10px;
+}
+
+
+.new-arrivals{
+    max-width: 100%;
+    height: auto;
+}
+.new-arrival-info{
+    text-align: center;
+}
+.gallery-new-arrivals{
+    text-align: center;
+}
+.new-arrival-images{
+    width: 100%;
+    height: 300px;
+    padding-left: 100px;
+}
+.na1{
+    float: left;
+    margin-left: 10px;
+}
+.na2{
+    float: left;
+    margin-left: 10px;
+}
+.na3{
+    float: left;
+    margin-left: 10px;
+}
+.na4{
+    float: left;
+    margin-left: 10px;
+}
+.new-arrival-images h3,h6{
+    text-align: left;
+}
+.new-arrival-images h3:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+
+.trending-products{
+    width: 100%;
+    display: inline-block;   
+}       
+.trending-product-info{
+    text-align: center;
+}
+.trending-product-info h4{
+    color: rgb(97, 92, 92);
+}
+.trending-gallery{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.gallery-tranding-products1{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products2{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products3{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products4{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products5{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products6{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products7{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.gallery-tranding-products8{
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.trending-gallery h3{
+    text-align: left;
+}
+.trending-gallery h3:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+.main-footer{
+    width: 100%;
+    display: block;
+}
+
+
+    /* Top Footer*/
+
+.top-footer{
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    margin-top: 5%;
+    text-align: center;
+    background-color: lightgray;
+}
+.shipping{
+    width: 33.33%;
+    float: left;
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    border-right: 1px solid rgb(177, 174, 174);
+}
+.payment{
+    width: 33.33%;
+    float: left;
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    border-right: 1px solid rgb(177, 174, 174);
+}
+.return{
+    width: 33.33%;
+    float: right;
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+    /*Middle Footer*/
+
+.mid-footer{
+    width: 100%;
+    height: 350px;
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 10px;
+    background-color: #0F204D;
+}
+.logo-footer{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding-top: 20px;
+    color: white;
+    line-height: 2;
+}
+#orangelogo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.icons-footer{
+    margin-left: 40px;
+}
+.icons-footer .fa{
+    margin-top: 20px;
+    padding-right: 25px;
+}
+#fbfooter:hover{
+    color: orangered;
+}
+#instafooter:hover{
+    color: orangered;
+}
+#twitterfooter:hover{
+    color: orangered;
+}
+#pininterestfooter:hover{
+    color: orangered;
+}
+#googlefooter:hover{
+    color: orangered;
+}
+.about-footer{
+    width: 30%;
+    float: left;
+    color: white;
+    display: block;
+}
+.customer-service{
+    float: left;
+}
+.cslable{
+    color: rgb(228, 227, 227, 0.5);    
+    line-height: 2;
+}
+.cslable:hover{
+    text-decoration: underline;
+}
+.info-company{
+    float: left;
+    margin-left: 50px;
+}
+.subscribe-footer{
+    width: 30.33%;
+    float: right;
+    color: white;
+    display: block;
+    line-height: 2;
+}
+#subemail{
+    width: 40%;
+    padding: 10px;
+    padding-left: 30px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+}
+#subscribe{
+    width: 40%;
+    padding: 10px;
+    color: #0F204D;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#emailsubscribe{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+
+
+.bottom-footer{
+    width: 100%;
+    height: 5%;
+    background-color: #0F204D;
+    margin-top: -20px;
+}
+.copyright{
+    color: rgb(228, 227, 227, 0.5);
+    padding-left: 300px;
+}
+
+#ulname{
+    font-weight: bolder;
+    color:white;
+}

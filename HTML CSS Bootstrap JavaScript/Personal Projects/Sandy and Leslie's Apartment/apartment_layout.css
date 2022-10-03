@@ -1,0 +1,48 @@
+/* Author: Darshil Gajera, 000867069 */
+
+header{
+    text-align: center;
+}
+
+main h3{
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bolder;
+}
+figcaption{
+    margin: 20px 0;
+}
+.apartment-floor-plan{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.nav-items li{
+    display: inline-block;
+}
+table, td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+table th{
+    background-color: gainsboro;
+}
+table tr:last-child{
+    background-color: aquamarine;
+}
+table{
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: left;
+}
+table p{
+    margin: 0;
+}
+
+
+
+
+
+
+

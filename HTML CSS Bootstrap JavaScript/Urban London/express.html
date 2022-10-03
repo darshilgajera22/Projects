@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="allcss/express.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+        
+    </head>
+    
+    <body>
+
+        <div id="header-top" class="container-fluid header1">
+
+            <div class="row">
+                 
+                <div class="col-xl-4">
+                    <p class="text-justify">
+                        <i class="fa fa-envelope"></i>
+                        support@theurbanlondon.com
+                    </p>
+                </div>
+
+                <div class="col-xl-4 delivery-txt">
+                    <p>Free Delivery Within UK</p>
+                </div>
+
+                <div class="col-xl-4 social-icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-google"></i>
+                </div>
+            </div>
+        </div>
+
+        <nav id="nav-menu" class="navbar navbar-expand-sm nav-menu justify-content-lg-between">
+    
+            <img class="navbar-brand logo-img" src="/images/urbanlondon_logo.png" alt="logo">
+            
+            <ul class="navbar-nav menu-header">
+                <li class="nav-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="navbardrop" class="dropdown-toggle" data-toggle="dropdown">
+                        Collection
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Belt</a>
+                        <a class="dropdown-item" href="#">Belt</a>
+                        <a class="dropdown-item" href="#">Belt</a>
+                        <a class="dropdown-item" href="#">Belt</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">All</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav pt-2 profile-header">
+                <li class="nav-item">
+                    <a>
+                        <p class="logintxt">
+                            <i class="fa fa-user"></i>
+                            Login/
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a>
+                        <p class="regi">Registry</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a>
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </li>
+            </ul>     
+        </nav>
+
+
+
+        <div class="container mt-5">
+            <h2>Express Checkout</h2>
+            
+            <p class="signin"><a class="signin"> Sign In</a></p>
+            <div class="row mt-3">
+        
+                <div class="col-sm-4 address pb-5">
+                    
+                   <div class="border p-2  pb-5">
+
+                        <h5 class="saex">SHIPPING ADDRESS </h5>
+                       <!-- <span class="shipaddtxt pr-4"></span>-->
+
+                        <form class="mt-5">
+                            <div class="form-group">
+                                <label for="mail">Email Address</label>
+                                <input type="email" class="form-control" id="mail" name="mail">
+                            </div>
+                            
+                            <div>
+                                <p class="p-2">
+                                    <i class="fa fa-angle-down" data-toggle="collapse" data-target="#create-newac"></i>
+                                    You can create an account after checkout.
+                                </p>
+                                <div id="create-newac" class="form-group form-check collapse">
+                                    <input type="checkbox" class="form-check-input" id="newaccount" name="newaccount">
+                                    <label for="newaccount" class="form-check-label">Create New Account</label>
+                                </div>
+                            </div>
+                                                    
+                        </form>
+                        
+                        
+                        <form class="mt-5">
+                        
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" name="fname" id="fname">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" name="lname" id="lname">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" class="form-control" name="phone" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="street">Street Address</label>
+                                <input type="text" class="form-control" name="street" id="street">
+                            </div>
+                            <div class="form-group">
+                                <label for="street2">Street Address: Line 2</label>
+                                <input type="text" class="form-control" name="street2" id="street2">
+                            </div>
+                            <div class="form-group">
+                                <label for="street3">Street Address: Line 3</label>
+                                <input type="text" class="form-control" name="street3" id="street3">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" class="form-control" name="city" id="city">
+                            </div>
+                            <div class="form-group">
+                                <label for="zipcode">Zip/Postal Code</label>
+                                <input type="text" class="form-control" name="zipcode" id="zipcode">
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                
+                                <select name="country" class="select form-control">
+                                    <option value="london" selected>London</option>
+                                    <option value="india">INDIA</option>
+                                    <option value="usa">USA</option>
+                                    <option value="canada">CANADA</option>
+                                    <option value="australia">AUSTRALIA</option>
+                                    <option value="japan">JAPAN</option>
+                                    <option value="france">FRANCE</option>
+                                    <option value="russia">RUSSIA</option>
+                                    <option value="germany">GERMANY</option>
+                                    <option value="poland">POLAND</option>
+                                </select>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State/Province</label>
+                                <input type="text" class="form-control" name="state" id="state">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" class="form-control" name="company" id="company">
+                            </div>
+                        </form>
+
+                   </div>
+                </div>
+        
+                <div class="col-sm-4 method pb-5">
+                    
+                    <div class="border p-2">
+                        <h5>SHIPPING METHOD</h5>
+                        <span class="shipaddtxt pr-4"></span>
+
+                        <form class="mt-5">
+                            <div class="form-group">
+                                <label for="shipping_cmt">Shipping Delivery Comment</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="border mt-5 p-2 pb-5">
+
+                        <h5>PAYMENT METHOD</h5>
+                        <span class="shipaddtxt pr-4"></span>
+
+                        <form class="mt-5">
+                            <div class="form-group">
+                                <input type="checkbox" id="addsame" name="addsame">
+                                <label for="addsame">My billing and shipping address are same</label>
+                            </div>
+                            <div class="form-group mt-lg-4">
+                                <input type="radio" id="squareup" name="squareup">
+                                <label for="squareup">SquareUp Payment Method</label>
+                            </div>
+                        </form>
+                        <hr>
+                        
+                        <div class="creditpay">
+                            <p id="creditpay-text">
+                                Pay with a Credit Card
+                                <i class="fa fa-angle-down" data-toggle="collapse" data-target="#credit-collapse"></i>
+                            </p>
+                            <div id="credit-collapse" class="collapse">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non fugit placeat magnam quae sint nihil distinctio est facilis accusamus. Ducimus laboriosam dolores corrupti consequatur sunt corporis, cupiditate maxime maiores aliquid.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                        <div class="applepay">
+                            <p id="applepay-text">
+                                Pay with Apple Pay
+                                <i class="fa fa-angle-down" data-toggle="collapse" data-target="#apple-collapse"></i>
+                            </p>
+                            
+                            <div id="apple-collapse" class="collapse">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non fugit placeat magnam quae sint nihil distinctio
+                                    est facilis accusamus. Ducimus laboriosam dolores corrupti consequatur sunt corporis, cupiditate maxime maiores
+                                    aliquid.
+                                </p>
+                            </div>
+                            <p>Click on below button to select payment and submit your order</p>
+                        </div>
+                        <hr>
+                        
+                        <div class="paypalpay d-flex">
+                            <form>
+                                <input type="radio">
+                            </form>
+                            <div>
+                                <figure>
+                                    <img src="/images/paypal.png" class="paypal-img float-left">
+                                    <figcaption class="float-left">
+                                        <p class="paypaltxt">PayPal Express Checkout What is PayPal?</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+
+
+
+
+
+                <div class="col-sm-4 summary pb-5">
+                    
+                    <div class="border summary-cart pt-2 pl-3 pr-3 pb-5">
+
+                        <h5>ORDER SUMMARY</h5>
+                        <span class="shipaddtxt pl-4"></span>
+
+                        <div class="d-flex justify-content-between border-bottom mt-5">
+                            <p>1 Item in Cart</p>
+                            <i class="fa fa-angle-down" data-toggle="collapse" data-target="#cart-item"></i>
+                        </div>
+                        
+                        
+                        <div id="cart-item" class="collapse pt-3 row d-flex justify-content-between">
+                            
+                            <div class="col-4 pr-0">
+                                <img src="/images/NA4.jpg" class="cart-item-img">
+                            </div>
+
+
+                            <div class="col-5 pl-1 pr-1">
+                                <p>The Club Belt</p>
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="quantity">Qty:</label>
+                                        <input type="number" id="quantity" name="quantity" value="1" min="1" size="10">
+                                    </div>
+                                </form>
+
+                                <p>
+                                    View Details
+                                    <i class="fa fa-angle-down" data-toggle="collapse" data-target="#view-details"></i>
+                                    <div id="view-details" class="collapse">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </div>
+                                </p>
+                            </div>
+                            
+                            <div class="col-3 pl-0">
+                                <p>&pound;13.99</p>
+                            </div>
+
+                        </div>
+                        <hr>
+
+
+                        <div class="amount-summary">
+                        
+                            <div class="d-flex justify-content-between">
+                                <p>Cart Subtotal</p>
+                                <div>
+                                    <label>&pound;13.99</label>
+                                </div>
+                                
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p>Shipping<br>
+                                    <span>Standard Delivery (Free Within UK)</span>
+                                </p>
+                                <div>
+                                    <label>&pound;00.00</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h5>ORDER TOTAL</h5>
+                                <div>
+                                    <label><b>&pound;13.99</b></label>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="mt-3">
+                        <form>
+                            <div class="form-group">
+                                <input type="checkbox" id="subscribe" name="subscribe">
+                                <label for="subscribe">Check To Subscribe Order Newslatter</label>
+                            </div>
+                            <div class="form-row justify-content-between">
+                                <div class="col-8">
+                                    <input type="text" class="form-control" id="discountcode" name="discountcode" placeholder="Enter Discount Code">
+                                </div>
+                                <div class="col-4">
+                                    <button class="discbtn p-2 text-center">
+                                        Apply Discount
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-2">
+                                <button class="form-control placeorderbtn">
+                                    Place Order
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                    
+                </div>
+        
+            </div>
+        </div>
+
+
+
+        <!-------------
+            Footer
+        --------------->
+
+        <div class="footer">
+
+            <div class="container">
+
+                <div class="top-footer pt-5 pb-5">
+
+                    <div class="row">
+
+                        <div class="col-xl-3 logo-icon-footer">
+
+                            <img src="/images/urbanlondonorange_logo1.png" class="orengelogo-footer">
+
+                            <div class="social-icon-footer">
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-google"></i>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-xl-3 companyinfo-footer">
+                            <h6>Comapany Information</h6>
+                            <ul class="footer-ul">
+                                <li>About Us</li>
+                                <li>Delivery Information</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Condition</li>
+                                <li>Return Policy</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xl-3 custsupport-footer">
+                            <h6>Customer Services</h6>
+                            <ul class="footer-ul">
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    support@theurbanlondon.com
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xl-3 subscribe-footer">
+                            <h6>Subscribe To Our Newslatter</h6>
+
+                            <form>
+                                <i class="fa fa-envelope" id="faemail"></i>
+                                <input type="email" class="form-control e-input" placeholder="Enter your email here....">
+                                <input type="submit" class="form-control text-center subscribebtn mt-2" value="Subscribe">
+                            </form>
+                            <p>We respect your privacy, so we never share your info.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+            <div class="bottom-footer container">
+            
+                <p>@CopyRight 2021<b class="text-white">Urban London</b> all right reserved.</p>
+            
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>

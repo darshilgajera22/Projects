@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Author: Darshil Gajera, 000867069 -->
+        <meta charset="UTF-8">
+        <title>Outdoor Adventure Seminars</title>
+        <link rel="stylesheet" type="text/css" href="adventurestyles.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+        
+        <style>
+            .main-body{
+                display:block;
+                margin-left: 10%;
+                margin-right: 10%;
+                
+            }
+            .legend td{
+                border: none;
+            }
+            .legend caption{
+                text-align: start;
+            }
+            .span1{
+                background-color:#9262af;
+            }
+            .span2{
+                background-color: #00A5D6;
+            }
+            .span3{
+                background-color: #99EE8a;
+            }
+            .span4{
+                background-color: #F9F871;
+            }
+
+            .schedule{
+                margin-top: 20px;
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            .schedule caption{
+                text-align: right;
+                caption-side: bottom;
+            }
+            .schedule th,td{
+                border: 2px solid black;
+                padding: 10px;
+                text-align: center;   
+            }
+            .schedule th{
+                background-color: #002759;
+                color: white;
+            }
+            .days{
+                background-color: #DDEEFF;
+            }
+            .hiking{
+                background-color: #99EE8a;
+            }
+            .camping{
+                background-color: #F9F871;
+            }
+            .beginner-cycling{
+                background-color: #9262af;
+            }
+            .long-dist-cycling{
+                background-color: #00A5D6;
+            }
+            .groups-seminars{
+                background-image: url("images/dust.jpg");   
+            }
+        </style>
+        <link rel="stylesheet" media="print" href="printstyle.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Outdoor Adventure Seminars</h1>
+	    <h1>2020/2021</h1>
+
+            <nav>
+                <ul class="navigation-menu">
+                    <li><a>About Us</a></li>
+                    <li><a>Travel</a></li>
+                    <li><a>Photos</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="seminars.html">Seminars</a></li>
+                    <li><a>Events</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="main-body">
+
+            
+            <table class="legend">
+                <caption>Legend:</caption>
+                <tr>
+                    <td class="span1"></td>
+                    <td>Cycling</td>
+                    <td class="span2"></span></td>
+                    <td>Long Distance Cycle</td>
+                    <td class="span3"></td>
+                    <td>Hiking</td>
+                    <td class="span4"></td>
+                    <td>Camping</td>
+                </tr>
+            </table>
+
+            <table class="schedule" width="100%"> 
+                <caption>Schedule is subject to change</caption>
+                <tr>
+                    <th>Day</th>
+                    <th>7am - 9am</th>
+                    <th>9am - 11am</th>
+                    <th>11am - 12pm</th>
+                    <th>12pm - 2pm</th>
+                    <th>2pm - 4pm</th>
+                    <th>4pm - 8pm</th>
+                    <th>8pm - 10pm</th>
+                </tr>
+                <tr>
+                    <td class="days">Monday</td>
+                    <td colspan="7" class="groups-seminars">Reserved for groups</td>
+                </tr>
+                <tr>
+                    <td class="days">Tuesday</td>
+                    <td class="hiking">Hiking</td>
+                    <td class="beginner-cycling">Beginner Cycling</td>
+                    <td colspan="5" class="camping">Camping</td>
+                </tr>
+                <tr>
+                    <td class="days">wednesday</td>
+                    <td rowspan="2" class="long-dist-cycling">Long Distance Cycling Part 1</td>
+                    <td></td>
+                    <td class="beginner-cycling">Beginner Cycling</td>
+                    <td rowspan="2" class="camping">Camping in Asia</td>
+                    <td rowspan="3" colspan="2" class="hiking">Hiking</td>
+                    <td rowspan="2" class="long-dist-cycling">Long Distance Cycling Part 2</td>
+                </tr>
+                <tr>
+                    <td class="days">Thrusday</td>   
+                    <td class="camping">Camping</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="days">Friday</td>
+                    <td rowspan="4" class="camping">Camping in Europe</td>
+                    <td colspan="2" class="beginner-cycling">Beginner Cycling</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="days">Saturday</td>
+                    <td rowspan="2" colspan="3" class="hiking">Hiking</td>
+                    <td class="beginner-cycling">Beginner Cycling</td>
+                    <td colspan="2" rowspan="2" class="long-dist-cycling">Long Distance Cycling Part 1 and 2</td>
+                </tr>
+                <tr>
+                    <td class="days">Sunday</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="days">Holidays</td>
+                    <td colspan="2" class="long-dist-cycling">Long Distance Cycling</td>
+                    <td colspan="4" class="groups-seminars">No Seminars</td>
+                </tr>
+            </table>
+
+        </div>
+
+
+        <footer>
+            <img src="images/outdooradventurehorizontal.png" alt="Footer Logo"> 
+        </footer>
+        <a href="../index.html">Back to Index</a>
+    </body>
+</html>

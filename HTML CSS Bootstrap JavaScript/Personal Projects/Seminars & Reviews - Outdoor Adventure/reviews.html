@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Author: Darshil Gajera, 000867069 -->
+        <meta charset="UTF-8">
+        <title>Outdoor Adventure Reviews</title>
+        <link rel="stylesheet" type="text/css" href="adventurestyles.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+        <style>
+            .tripreview-form{
+                border: 1px solid black;
+                margin: 20px 10%;
+                padding: 20px;
+                background-color:  #40538C;
+                color: white;
+            }
+            legend{
+                padding: 0 10px;
+                font-size: 1.1em;
+            }
+            fieldset{
+                border: 3px solid white;
+                margin-top: 20px;
+            }
+            .radio-rating{
+                margin-top: 10px;
+            }
+            textarea{
+                display: block;
+            }
+            .contact-info{
+                margin-left: 20px;
+            }
+            input{
+                background-color: #FFFFE6;
+            }
+            #phonenumber{
+                width: 60%;
+            }
+            #email{
+                width: 150%;
+            }
+            #buttons{
+                margin-top: 20px;
+            }
+            #buttons input{
+                color: black;
+                font-weight: bolder;
+                margin-left: 5px;
+                padding: 5px;
+            }
+            .response-submit{
+                text-align: center;
+            }
+            .response-submit img{
+                max-width: 100%;
+            }
+        </style>
+        <link rel="stylesheet" media="print" href="printstyle.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Outdoor Adventure Trip Reviews</h1>
+	    <h1>2020/2021</h1>
+
+            <nav>
+                <ul class="navigation-menu">
+                    <li><a>About Us</a></li>
+                    <li><a>Travel</a></li>
+                    <li><a>Photos</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="seminars.html">Seminars</a></li>
+                    <li><a>Events</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="main-body">
+
+            <form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl" class="tripreview-form">
+                
+                <input type="hidden" name="Darshil Gajera" value="Darshil Gajera Trip Review">
+                <fieldset id="trip-reviews">
+                    <legend>Trip Reviews</legend>
+
+                    <div class="dropdown-places-days">
+                        <select id="places" name="States">
+                            <option value="Alberta-rural">Alberta Rural</option>
+                            <option value="bc-coast">B.C. Coast</option>
+                            <option value="ontario">Ontario Lake Superior</option>
+                            <option selected value="pei">PEI</option>
+                            <option value="nova-scotia">Nova Scotia Cabot Trail</option>
+                        </select>
+                        <select id="days-period" name="tripdays">
+                            <option value="5d">5 Days</option>
+                            <option value="7d">7 Days</option>
+                            <option value="10d">10 Days</option>
+                            <option value="14d">14 Days</option>
+                        </select>
+                    </div>
+                    
+                    <div class="radio-rating">
+                        <label>Your rating:</label>
+                        <div>
+                            <input type="radio" name="rating" id="four-rating" value="4" checked>
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="three-rating" value="3">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                        </div>                 
+				        <div>
+                            <input type="radio" name="rating" id="two-rating" value="2">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                        </div>
+				        <div>
+                            <input type="radio" name="rating" id="one-rating" value="1">
+                            <img for="fourrating" src="images/wheel_sm.jpg" alt="ratingimg">
+                        </div>
+                    </div>
+                    
+                    <label>Comments</label>
+                    <textarea name="comment" cols="80" rows="7" maxlength="65"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>I would be interested in these trips: (check all that apply)</legend>
+                    
+                    <div>
+                        <input type="checkbox" name="interested-place" id="sea-lakecoast" value="sea or lake coast">
+                        <label for="sea-lakecoast">Sea or Lake Coast</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="interested-place" id="rural" value="Rural">
+                        <label for="rural">Rural</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="interested-place" id="mountains" value="Mountains" checked>
+                        <label for="mountains">Mauntains</label>
+                    </div>
+				    <div>
+                        <input type="checkbox" name="interested-place" id="other" value="Other">
+                        <label for="other">Other (please specify)</label>
+                        <input type="text">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>About You (optional)</legend>
+
+                    <label for="prefer-trip-time">I usually prefer to trips this time of a year (select all that apply):</label>
+                    <div>
+                        <select name="preferTripTime" id="prefer-trip-time" multiple >
+                            <option>Winter</option>
+                            <option>Spring</option>
+                            <option>Summer</option>
+                            <option>Fall</option>
+                        </select>
+                    </div>               
+                    <div class="contact-info">
+                        <table>
+                            <tr>
+                                <td><label for="firstname">First Name</label></td>
+                                <td><input type="text" name="First Name" id="firstname" required maxlength="20"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="lastname">Last Name</label></td>
+                                <td><input type="text" name="Last Name" id="lastname" required maxlength="20"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phonenumber">Phone Number</label></td>
+                                <td><input type="tel" name="Phone Number" id="phonenumber" maxlength="12" placeholder="123-456-7890"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email Address</label></td>
+                                <td><input type="email" name="Email" id="email" maxlength="40" placeholder="name@example.com"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </fieldset>
+
+                <div id="buttons">
+                    <input type="submit" value="SEND REVIEW">
+                    <input type="reset" value="CANCEL">
+                </div>
+            </form>
+        </div>
+
+        <div class="response-submit">
+            <img src="images/ResponseSubmitLab5.png" alt="Response Submit">
+        </div>
+
+
+        <footer>
+            <img src="images/outdooradventurehorizontal.png" alt="Footer Logo"> 
+        </footer>
+        <a href="../index.html">Back to Index</a>
+    </body>
+</html>
