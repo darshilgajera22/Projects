@@ -1,0 +1,11 @@
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\bin\Debug\Lab2B.exe.config
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\bin\Debug\Lab2B.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\bin\Debug\Lab2B.pdb
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.csproj.AssemblyReference.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.csproj.SuggestedBindingRedirects.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.Form1.resources
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.Properties.Resources.resources
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.csproj.GenerateResource.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.csproj.CoreCompileInputs.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2B\obj\Debug\Lab2B.pdb

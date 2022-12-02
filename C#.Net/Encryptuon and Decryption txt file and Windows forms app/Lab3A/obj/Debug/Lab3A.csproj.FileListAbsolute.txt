@@ -1,0 +1,9 @@
+C:\Users\djgaj\source\repos\Lab3\Lab3A\bin\Debug\Lab3A.exe.config
+C:\Users\djgaj\source\repos\Lab3\Lab3A\bin\Debug\Lab3A.exe
+C:\Users\djgaj\source\repos\Lab3\Lab3A\bin\Debug\Lab3A.pdb
+C:\Users\djgaj\source\repos\Lab3\Lab3A\obj\Debug\Lab3A.csproj.AssemblyReference.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3A\obj\Debug\Lab3A.csproj.SuggestedBindingRedirects.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3A\obj\Debug\Lab3A.csproj.CoreCompileInputs.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3A\obj\Debug\Lab3A.exe
+C:\Users\djgaj\source\repos\Lab3\Lab3A\obj\Debug\Lab3A.pdb
+C:\Users\djgaj\source\repos\Lab3\Lab3A\bin\Debug\Data.txt

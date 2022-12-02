@@ -1,0 +1,13 @@
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\bin\Debug\Lab2A.exe.config
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\bin\Debug\Lab2A.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\bin\Debug\Lab2A.pdb
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\obj\Debug\Lab2A.csproj.SuggestedBindingRedirects.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab2\Lab2A\obj\Debug\Lab2A.pdb
+F:\Lab2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+F:\Lab2\Lab2A\obj\Debug\Lab2A.csproj.SuggestedBindingRedirects.cache
+F:\Lab2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+F:\Lab2\Lab2A\obj\Debug\Lab2A.exe
+F:\Lab2\Lab2A\obj\Debug\Lab2A.pdb

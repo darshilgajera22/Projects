@@ -1,0 +1,11 @@
+C:\Users\djgaj\source\repos\Lab3\Lab3B\bin\Debug\Lab3B.exe.config
+C:\Users\djgaj\source\repos\Lab3\Lab3B\bin\Debug\Lab3B.exe
+C:\Users\djgaj\source\repos\Lab3\Lab3B\bin\Debug\Lab3B.pdb
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.csproj.AssemblyReference.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.csproj.SuggestedBindingRedirects.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.Form1.resources
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.Properties.Resources.resources
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.csproj.GenerateResource.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.csproj.CoreCompileInputs.cache
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.exe
+C:\Users\djgaj\source\repos\Lab3\Lab3B\obj\Debug\Lab3B.pdb

@@ -1,0 +1,9 @@
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\bin\Debug\Lab4A.exe.config
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\bin\Debug\Lab4A.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\bin\Debug\Lab4A.pdb
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\obj\Debug\Lab4A.csproj.AssemblyReference.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\obj\Debug\Lab4A.csproj.SuggestedBindingRedirects.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\obj\Debug\Lab4A.csproj.CoreCompileInputs.cache
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\obj\Debug\Lab4A.exe
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\obj\Debug\Lab4A.pdb
+C:\Users\djgaj\source\repos\Final Assignment\Lab4\Lab4A\bin\Debug\employees.txt
